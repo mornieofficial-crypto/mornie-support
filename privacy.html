@@ -100,110 +100,175 @@ footer {
 <main>
   <a class="back" href="./">← mornie</a>
   <h1 class="title">プライバシーポリシー / Privacy Policy</h1>
-  <p class="updated">最終更新 / Last updated: 2026-09-10</p>
+  <p class="updated">最終更新 / Last updated: 2026-09-12</p>
 
   <h2 class="lang">日本語</h2>
 
-  <h3>1. 基本方針</h3>
-  <p>mornie（以下「本アプリ」）は、あなたの記録を<strong>あなたの端末の中だけ</strong>に保存します。本アプリは、アカウント登録を必要とせず、あなたの記録を運営者や第三者のサーバーに送信・保存しません。</p>
+  <h3>1. はじめに</h3>
+  <p>mornie（以下「本アプリ」）では、日記、メモ、気分、体調など、ユーザーが入力した記録内容を端末内に保存します。</p>
+  <p>本アプリはアカウント登録を必要とせず、これらの記録内容を運営者が閲覧するためのサーバーへ送信・保存しません。</p>
+  <p>一方、アプリの提供・改善、天気表示、アプリ内課金などに必要な範囲で、利用状況や技術情報等を外部サービスへ送信することがあります。本ポリシーでは、その内容と利用目的について説明します。</p>
 
   <h3>2. 端末内に保存されるデータ</h3>
-  <p>以下はすべて、あなたの iPhone / Android 端末内のローカルデータベースにのみ保存されます。</p>
+  <p>以下のデータは、ユーザーの iPhone / Android 端末内のローカルデータベースに保存されます。</p>
   <ul>
     <li>気分、体調などの記録</li>
-    <li>やりたいこと、ひとこと、その他の項目</li>
+    <li>やりたいこと、ひとこと、メモ、その他の記録項目</li>
     <li>アプリの設定（テーマ、リマインド時刻など）</li>
   </ul>
-  <p>これらは本アプリの外部に送信されません。端末のバックアップ（iCloud / Google）に含まれる場合がありますが、それはあなたと Apple / Google の間の取り扱いになります。</p>
+  <p>これらの記録内容を、広告や利用状況分析を目的として運営者または分析サービスへ送信することはありません。</p>
+  <p>端末の設定によっては、これらのデータが iCloud / Google 等の端末バックアップに含まれる場合があります。その場合のデータの取り扱いには、Apple / Google 等の各サービスの規約およびプライバシーポリシーが適用されます。</p>
 
-  <h3>3. 位置情報（天気表示・任意）</h3>
-  <p>「天気を表示」をオンにした場合のみ、本アプリは端末の<strong>おおよその現在地（緯度・経度）</strong>を取得し、天気を表示するために <strong>Open-Meteo（open-meteo.com）</strong> へ送信します。</p>
+  <h3>3. 利用状況の分析</h3>
+  <p>本アプリでは、利用状況の把握およびサービス改善のため、PostHog を使用しています。</p>
+  <p>PostHog には、以下の情報が送信されることがあります。</p>
   <ul>
-    <li>送信先：Open-Meteo（天気データ API）</li>
-    <li>送信内容：緯度・経度、対象日</li>
-    <li>位置情報は本アプリ内に保存されません</li>
-    <li>地名の表示には端末 OS（Apple / Google）の逆ジオコーディング機能を使います</li>
-    <li>「天気を表示」はいつでもオフにできます</li>
+    <li>アプリの起動や機能の利用等に関するイベント情報</li>
+    <li>OS、アプリバージョン、言語等の端末・アプリに関する技術情報</li>
   </ul>
-  <p>Open-Meteo のプライバシーについては同社のポリシーをご確認ください。</p>
-
-  <h3>4. 通知</h3>
-  <p>「あさのリマインド」はすべて<strong>端末内でスケジュールされるローカル通知</strong>です。プッシュ通知サーバーは使用せず、通知トークン等も取得しません。</p>
-
-  <h3>5. データの書き出し</h3>
-  <p>「記録を書き出す」を使うと、あなたの記録が JSON 形式で作成され、端末の共有機能を通じてあなたが選んだ送信先（メモ、メール等）に渡されます。送信先の選択と管理はあなたの操作によります。</p>
-
-  <h3>6. 収集しないもの</h3>
+  <p>以下の情報は PostHog へ送信しません。</p>
   <ul>
-    <li>広告 / 広告 ID</li>
-    <li>アクセス解析 / 利用状況トラッキング</li>
-    <li>クラッシュレポートの自動送信</li>
-    <li>連絡先、写真、その他の個人情報</li>
+    <li>日記、メモ、ひとこと等の自由入力内容</li>
+    <li>気分・体調等の具体的な記録内容</li>
+    <li>その他、ユーザーが本アプリに入力した記録内容</li>
+    <li>氏名やメールアドレス</li>
   </ul>
+  <p>PostHog を、ユーザーが入力した記録内容の分析や広告配信のために使用することはありません。</p>
 
-  <h3>7. 課金について</h3>
-  <p>現在、アプリ内課金はありません。将来、サブスクリプション等の機能を追加する場合は、必要に応じて本プライバシーポリシーを更新します。その場合も、購入処理は Apple / Google のストアが行い、あなたの記録内容が共有されることはありません。</p>
+  <h3>4. 位置情報と天気</h3>
+  <p>ユーザーが「天気を表示」をオンにした場合、本アプリは端末から現在地の緯度・経度を取得し、天気情報を取得するため Open-Meteo へ送信します。</p>
+  <p>送信される情報：</p>
+  <ul>
+    <li>緯度・経度</li>
+    <li>天気を取得する対象日</li>
+  </ul>
+  <p>位置情報は、日記等の記録データとして本アプリ内に保存しません。</p>
+  <p>地名を表示する際には、端末 OS が提供する Apple / Google の逆ジオコーディング機能を使用する場合があります。</p>
+  <p>「天気を表示」はいつでもオフにできます。</p>
 
-  <h3>8. 子どものプライバシー</h3>
-  <p>本アプリは特定の年齢層を対象としていませんが、個人を特定する情報を収集しません。</p>
+  <h3>5. 通知</h3>
+  <p>「あさのリマインド」等の通知には、端末内でスケジュールされるローカル通知を使用します。</p>
+  <p>通知のために、日記やその他の記録内容を外部サーバーへ送信することはありません。</p>
 
-  <h3>9. ポリシーの変更</h3>
-  <p>本ポリシーを変更する場合は、本ページの更新および必要に応じてアプリ内で通知します。</p>
+  <h3>6. データの書き出し</h3>
+  <p>「記録を書き出す」機能を使用すると、ユーザーの操作により記録データを書き出し、端末の共有機能を通じてユーザーが選択したアプリやサービスへ送ることができます。</p>
+  <p>共有後のデータの取り扱いには、共有先となるサービスの規約およびプライバシーポリシーが適用されます。</p>
 
-  <h3>10. お問い合わせ</h3>
-  <p>ご質問・ご要望は下記までご連絡ください。<br>
-  連絡先: <a href="mailto:mornie.official@gmail.com">mornie.official@gmail.com</a></p>
+  <h3>7. アプリ内課金</h3>
+  <p>本アプリでは、一部の追加機能を利用するためのアプリ内課金を提供しています。</p>
+  <p>購入および決済処理は、Apple App Store または Google Play を通じて行われます。</p>
+  <p>また、本アプリでは購入状態および利用権限の管理に RevenueCat を使用します。RevenueCat には、購入状態、商品情報、アプリ・端末に関する技術情報など、課金機能の提供に必要な情報が送信される場合があります。</p>
+  <p>日記、メモ、気分、体調等の記録内容を RevenueCat へ送信することはありません。</p>
+  <p>クレジットカード番号等の決済情報を、本アプリの運営者が直接取得・保存することはありません。</p>
+
+  <h3>8. 広告について</h3>
+  <p>本アプリでは、ユーザーの記録内容を広告配信や広告目的のプロファイリングに利用しません。</p>
+  <p>また、日記、メモ、気分、体調等の記録内容を第三者へ販売することはありません。</p>
+
+  <h3>9. 外部サービス</h3>
+  <p>本アプリでは、機能の提供およびサービス改善のため、以下の外部サービスを使用します。</p>
+  <ul>
+    <li>PostHog：利用状況の分析</li>
+    <li>Open-Meteo：天気情報の取得</li>
+    <li>RevenueCat：アプリ内課金および購入状態の管理</li>
+    <li>Apple App Store / Google Play：アプリの配信および決済</li>
+  </ul>
+  <p>各サービスに送信された情報には、それぞれのサービスのプライバシーポリシーが適用されます。</p>
+
+  <h3>10. 子どものプライバシー</h3>
+  <p>本アプリは、特定の年齢層の子どもを対象として提供するものではありません。</p>
+
+  <h3>11. 本ポリシーの変更</h3>
+  <p>本アプリの機能、利用する外部サービス、法令等の変更に伴い、本プライバシーポリシーを変更することがあります。</p>
+  <p>重要な変更がある場合は、本ページの更新またはアプリ内での案内等、適切な方法でお知らせします。</p>
+
+  <h3>12. お問い合わせ</h3>
+  <p>本ポリシーまたは本アプリに関するお問い合わせは、以下までご連絡ください。<br>
+  <a href="mailto:mornie.official@gmail.com">mornie.official@gmail.com</a></p>
 
   <h2 class="lang">English</h2>
 
-  <h3>1. Overview</h3>
-  <p>mornie ("the app") stores your entries <strong>only on your device</strong>. The app requires no account and never transmits or stores your entries on our servers or any third party's servers.</p>
+  <h3>1. Introduction</h3>
+  <p>mornie ("the App") stores journal entries, notes, mood, condition, and other content entered by users locally on their devices.</p>
+  <p>The App does not require account registration and does not transmit or store the contents of these records on servers operated for the purpose of allowing us to access or view them.</p>
+  <p>The App does, however, transmit limited usage and technical information to third-party services where necessary to provide and improve the App, deliver weather information, and manage in-app purchases. This Privacy Policy explains what information is processed and why.</p>
 
-  <h3>2. Data stored on your device</h3>
-  <p>The following is stored only in a local database on your iPhone / Android device:</p>
+  <h3>2. Data Stored on Your Device</h3>
+  <p>The following data is stored in a local database on your iPhone or Android device:</p>
   <ul>
-    <li>Mood, condition and other tracked values</li>
-    <li>To-dos, notes and other page items</li>
-    <li>App settings (theme, reminder time, etc.)</li>
+    <li>Mood, condition, and other tracked values</li>
+    <li>To-dos, notes, memos, and other journal items</li>
+    <li>App settings, including theme and reminder time</li>
   </ul>
-  <p>This data is not sent anywhere by the app. It may be included in your device backup (iCloud / Google), which is governed by your agreement with Apple / Google.</p>
+  <p>The contents of these records are not transmitted to us or to analytics providers for advertising or usage-analysis purposes.</p>
+  <p>Depending on your device settings, this data may be included in device backups such as iCloud or Google backup. In such cases, the applicable terms and privacy policies of Apple, Google, or other relevant services apply.</p>
 
-  <h3>3. Location (weather display, optional)</h3>
-  <p>Only if you turn on "Show weather", the app obtains your device's <strong>approximate location (latitude / longitude)</strong> and sends it to <strong>Open-Meteo (open-meteo.com)</strong> to retrieve weather.</p>
+  <h3>3. Usage Analytics</h3>
+  <p>mornie uses PostHog to understand usage and improve our services.</p>
+  <p>The following information may be sent to PostHog:</p>
   <ul>
-    <li>Recipient: Open-Meteo (weather data API)</li>
-    <li>Sent: latitude, longitude, target date</li>
-    <li>Location is not stored in the app</li>
-    <li>Place names use your device OS (Apple / Google) reverse geocoding</li>
-    <li>You can turn "Show weather" off at any time</li>
+    <li>Event information related to app launches, feature usage, and similar activity</li>
+    <li>Technical information about your device and the app, such as OS, app version, and language</li>
   </ul>
-
-  <h3>4. Notifications</h3>
-  <p>The morning reminder is a <strong>local notification scheduled entirely on your device</strong>. No push server is used and no notification token is collected.</p>
-
-  <h3>5. Data export</h3>
-  <p>"Export entries" creates a JSON file of your data and hands it to the destination you choose via the system share sheet. You control where it goes.</p>
-
-  <h3>6. What we do not collect</h3>
+  <p>The following information is never sent to PostHog:</p>
   <ul>
-    <li>Advertising / advertising identifiers</li>
-    <li>Analytics / usage tracking</li>
-    <li>Automatic crash reporting</li>
-    <li>Contacts, photos or other personal information</li>
+    <li>Free-text content such as journal entries, notes, or one-line reflections</li>
+    <li>Specific values you record, such as mood or physical condition</li>
+    <li>Any other content you enter into the App</li>
+    <li>Your name or email address</li>
   </ul>
+  <p>We do not use PostHog to analyze the content of your records or for advertising purposes.</p>
 
-  <h3>7. Purchases</h3>
-  <p>There are currently no in-app purchases. If subscriptions or similar features are added in the future, this Privacy Policy will be updated as needed. In that case, purchases would be handled by the Apple / Google stores, and the content of your entries would never be shared.</p>
+  <h3>4. Location and Weather</h3>
+  <p>If you turn on "Show weather," the App obtains your device's current latitude and longitude and sends it to Open-Meteo to retrieve weather information.</p>
+  <p>Information sent:</p>
+  <ul>
+    <li>Latitude and longitude</li>
+    <li>The date for which weather is requested</li>
+  </ul>
+  <p>Location data is not stored within the App as part of your records, such as journal entries.</p>
+  <p>To display place names, the App may use reverse geocoding provided by your device's OS (Apple or Google).</p>
+  <p>You can turn off "Show weather" at any time.</p>
 
-  <h3>8. Children's privacy</h3>
-  <p>The app is not directed to a specific age group and does not collect personally identifying information.</p>
+  <h3>5. Notifications</h3>
+  <p>Features such as the "Morning Reminder" use local notifications scheduled entirely on your device.</p>
+  <p>No journal entries or other recorded content are sent to any external server for notification purposes.</p>
 
-  <h3>9. Changes</h3>
-  <p>If this policy changes, we will update this page and, where appropriate, notify you in the app.</p>
+  <h3>6. Exporting Data</h3>
+  <p>Using the "Export entries" feature lets you export your data at your own initiative and send it, via your device's share function, to an app or service of your choosing.</p>
+  <p>Once shared, the handling of that data is governed by the terms and privacy policy of the destination service.</p>
 
-  <h3>10. Contact</h3>
-  <p>For questions or requests, contact us at:<br>
-  Contact: <a href="mailto:mornie.official@gmail.com">mornie.official@gmail.com</a></p>
+  <h3>7. In-App Purchases</h3>
+  <p>The App offers in-app purchases for certain additional features.</p>
+  <p>Purchases and payment processing are handled through the Apple App Store or Google Play.</p>
+  <p>The App also uses RevenueCat to manage purchase status and entitlements. Information necessary to provide this functionality — such as purchase status, product information, and technical information about your app and device — may be sent to RevenueCat.</p>
+  <p>Journal entries, notes, mood, physical condition, and other recorded content are never sent to RevenueCat.</p>
+  <p>We do not directly collect or store payment information such as credit card numbers.</p>
+
+  <h3>8. Advertising</h3>
+  <p>The App does not use the content of your records for advertising delivery or ad-related profiling.</p>
+  <p>We also do not sell journal entries, notes, mood, physical condition, or other recorded content to third parties.</p>
+
+  <h3>9. Third-Party Services</h3>
+  <p>To provide and improve the App, we use the following third-party services:</p>
+  <ul>
+    <li>PostHog: usage analytics</li>
+    <li>Open-Meteo: weather information</li>
+    <li>RevenueCat: in-app purchases and management of purchase status</li>
+    <li>Apple App Store / Google Play: app distribution and payment processing</li>
+  </ul>
+  <p>Information sent to each service is subject to that service's own privacy policy.</p>
+
+  <h3>10. Children's Privacy</h3>
+  <p>The App is not directed at children of any specific age group.</p>
+
+  <h3>11. Changes to This Policy</h3>
+  <p>We may update this Privacy Policy as the App's features, the third-party services we use, or applicable laws change.</p>
+  <p>If there is a material change, we will notify you through an update to this page or another appropriate method, such as an in-app notice.</p>
+
+  <h3>12. Contact</h3>
+  <p>If you have questions about this Policy or the App, please contact us at:<br>
+  <a href="mailto:mornie.official@gmail.com">mornie.official@gmail.com</a></p>
 
   <footer>© 2026 mornie</footer>
 </main>
