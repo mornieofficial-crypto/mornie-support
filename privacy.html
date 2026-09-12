@@ -107,7 +107,7 @@ footer {
   <h3>1. はじめに</h3>
   <p>mornie（以下「本アプリ」）では、日記、メモ、気分、体調など、ユーザーが入力した記録内容を端末内に保存します。</p>
   <p>本アプリはアカウント登録を必要とせず、これらの記録内容を運営者が閲覧するためのサーバーへ送信・保存しません。</p>
-  <p>一方、アプリの提供・改善、天気表示、アプリ内課金などに必要な範囲で、利用状況や技術情報等を外部サービスへ送信することがあります。本ポリシーでは、その内容と利用目的について説明します。</p>
+  <p>一方、アプリの提供・改善、天気表示、アプリ内課金などに必要な範囲で、利用状況や技術情報等を外部サービスへ送信する場合があります。本ポリシーでは、その内容と利用目的について説明します。</p>
 
   <h3>2. 端末内に保存されるデータ</h3>
   <p>以下のデータは、ユーザーの iPhone / Android 端末内のローカルデータベースに保存されます。</p>
@@ -116,24 +116,19 @@ footer {
     <li>やりたいこと、ひとこと、メモ、その他の記録項目</li>
     <li>アプリの設定（テーマ、リマインド時刻など）</li>
   </ul>
-  <p>これらの記録内容を、広告や利用状況分析を目的として運営者または分析サービスへ送信することはありません。</p>
-  <p>端末の設定によっては、これらのデータが iCloud / Google 等の端末バックアップに含まれる場合があります。その場合のデータの取り扱いには、Apple / Google 等の各サービスの規約およびプライバシーポリシーが適用されます。</p>
+  <p>これらの記録内容を、広告や利用状況分析を目的として外部の分析サービスへ送信することはありません。</p>
+  <p>端末の設定によっては、これらのデータが iCloud / Google 等の端末バックアップに含まれる場合があります。その場合のデータの取り扱いには、各サービスの規約およびプライバシーポリシーが適用されます。</p>
 
   <h3>3. 利用状況の分析</h3>
-  <p>本アプリでは、利用状況の把握およびサービス改善のため、PostHog を使用しています。</p>
-  <p>PostHog には、以下の情報が送信されることがあります。</p>
+  <p>本アプリでは、利用状況の把握、機能改善およびサービス品質の向上のため、外部の分析サービスを利用しています。</p>
+  <p>分析サービスには、以下の情報が送信される場合があります。</p>
   <ul>
     <li>アプリの起動や機能の利用等に関するイベント情報</li>
     <li>OS、アプリバージョン、言語等の端末・アプリに関する技術情報</li>
   </ul>
-  <p>以下の情報は PostHog へ送信しません。</p>
-  <ul>
-    <li>日記、メモ、ひとこと等の自由入力内容</li>
-    <li>気分・体調等の具体的な記録内容</li>
-    <li>その他、ユーザーが本アプリに入力した記録内容</li>
-    <li>氏名やメールアドレス</li>
-  </ul>
-  <p>PostHog を、ユーザーが入力した記録内容の分析や広告配信のために使用することはありません。</p>
+  <p>日記、メモ、ひとこと等の自由入力内容、気分・体調等の具体的な記録内容、その他ユーザーが本アプリに入力した記録内容は、利用状況分析のために送信しません。</p>
+  <p>また、氏名やメールアドレスを利用状況分析のために送信し、ユーザーを特定する目的では使用しません。</p>
+  <p>これらの分析情報を、ユーザーが入力した記録内容の分析や広告配信のために利用することはありません。</p>
 
   <h3>4. 位置情報と天気</h3>
   <p>ユーザーが「天気を表示」をオンにした場合、本アプリは端末から現在地の緯度・経度を取得し、天気情報を取得するため Open-Meteo へ送信します。</p>
@@ -143,7 +138,7 @@ footer {
     <li>天気を取得する対象日</li>
   </ul>
   <p>位置情報は、日記等の記録データとして本アプリ内に保存しません。</p>
-  <p>地名を表示する際には、端末 OS が提供する Apple / Google の逆ジオコーディング機能を使用する場合があります。</p>
+  <p>地名を表示する際には、端末 OS が提供する逆ジオコーディング機能を使用する場合があります。</p>
   <p>「天気を表示」はいつでもオフにできます。</p>
 
   <h3>5. 通知</h3>
@@ -157,23 +152,18 @@ footer {
   <h3>7. アプリ内課金</h3>
   <p>本アプリでは、一部の追加機能を利用するためのアプリ内課金を提供しています。</p>
   <p>購入および決済処理は、Apple App Store または Google Play を通じて行われます。</p>
-  <p>また、本アプリでは購入状態および利用権限の管理に RevenueCat を使用します。RevenueCat には、購入状態、商品情報、アプリ・端末に関する技術情報など、課金機能の提供に必要な情報が送信される場合があります。</p>
-  <p>日記、メモ、気分、体調等の記録内容を RevenueCat へ送信することはありません。</p>
+  <p>また、購入状態および利用権限の確認・管理のため、外部の課金管理サービスを利用しています。課金機能の提供に必要な範囲で、購入状態、商品情報、アプリ・端末に関する技術情報等が処理される場合があります。</p>
+  <p>日記、メモ、気分、体調等の記録内容を、課金処理や購入状態の管理のために送信することはありません。</p>
   <p>クレジットカード番号等の決済情報を、本アプリの運営者が直接取得・保存することはありません。</p>
 
   <h3>8. 広告について</h3>
   <p>本アプリでは、ユーザーの記録内容を広告配信や広告目的のプロファイリングに利用しません。</p>
   <p>また、日記、メモ、気分、体調等の記録内容を第三者へ販売することはありません。</p>
 
-  <h3>9. 外部サービス</h3>
-  <p>本アプリでは、機能の提供およびサービス改善のため、以下の外部サービスを使用します。</p>
-  <ul>
-    <li>PostHog：利用状況の分析</li>
-    <li>Open-Meteo：天気情報の取得</li>
-    <li>RevenueCat：アプリ内課金および購入状態の管理</li>
-    <li>Apple App Store / Google Play：アプリの配信および決済</li>
-  </ul>
-  <p>各サービスに送信された情報には、それぞれのサービスのプライバシーポリシーが適用されます。</p>
+  <h3>9. データの管理・削除</h3>
+  <p>日記、メモ、気分、体調等の記録内容は、原則としてユーザーの端末内で管理されます。</p>
+  <p>ユーザーは、本アプリが提供する削除機能や端末からのアプリ削除等により、端末内のデータを削除できます。</p>
+  <p>外部サービスに送信される利用状況や課金に関する情報については、それぞれのサービスのプライバシーポリシーおよびデータ保持方針に従って取り扱われます。</p>
 
   <h3>10. 子どものプライバシー</h3>
   <p>本アプリは、特定の年齢層の子どもを対象として提供するものではありません。</p>
@@ -191,33 +181,28 @@ footer {
   <h3>1. Introduction</h3>
   <p>mornie ("the App") stores journal entries, notes, mood, condition, and other content entered by users locally on their devices.</p>
   <p>The App does not require account registration and does not transmit or store the contents of these records on servers operated for the purpose of allowing us to access or view them.</p>
-  <p>The App does, however, transmit limited usage and technical information to third-party services where necessary to provide and improve the App, deliver weather information, and manage in-app purchases. This Privacy Policy explains what information is processed and why.</p>
+  <p>However, limited usage and technical information may be transmitted to third-party services where necessary to provide and improve the App, deliver weather information, and manage in-app purchases. This Privacy Policy explains what information is processed and why.</p>
 
   <h3>2. Data Stored on Your Device</h3>
   <p>The following data is stored in a local database on your iPhone or Android device:</p>
   <ul>
     <li>Mood, condition, and other tracked values</li>
-    <li>To-dos, notes, memos, and other journal items</li>
+    <li>To-dos, notes, and other journal items</li>
     <li>App settings, including theme and reminder time</li>
   </ul>
-  <p>The contents of these records are not transmitted to us or to analytics providers for advertising or usage-analysis purposes.</p>
-  <p>Depending on your device settings, this data may be included in device backups such as iCloud or Google backup. In such cases, the applicable terms and privacy policies of Apple, Google, or other relevant services apply.</p>
+  <p>The contents of these records are not transmitted to external analytics services for advertising or usage-analysis purposes.</p>
+  <p>Depending on your device settings, this data may be included in device backups such as iCloud or Google backup. In such cases, the applicable terms and privacy policies of the relevant services apply.</p>
 
   <h3>3. Usage Analytics</h3>
-  <p>mornie uses PostHog to understand usage and improve our services.</p>
-  <p>The following information may be sent to PostHog:</p>
+  <p>The App uses a third-party analytics service to understand how the App is used, improve features, and maintain service quality.</p>
+  <p>The following information may be processed:</p>
   <ul>
-    <li>Event information related to app launches, feature usage, and similar activity</li>
-    <li>Technical information about your device and the app, such as OS, app version, and language</li>
+    <li>Events relating to app launches and feature usage</li>
+    <li>Technical information about the device and App, such as operating system, App version, and language</li>
   </ul>
-  <p>The following information is never sent to PostHog:</p>
-  <ul>
-    <li>Free-text content such as journal entries, notes, or one-line reflections</li>
-    <li>Specific values you record, such as mood or physical condition</li>
-    <li>Any other content you enter into the App</li>
-    <li>Your name or email address</li>
-  </ul>
-  <p>We do not use PostHog to analyze the content of your records or for advertising purposes.</p>
+  <p>Journal entries, notes, free-text content, specific mood or condition records, and other content entered into the App are not transmitted for usage analytics.</p>
+  <p>Names and email addresses are not transmitted for the purpose of identifying users through analytics.</p>
+  <p>Analytics information is not used to analyze the contents of personal records or to deliver advertising based on those records.</p>
 
   <h3>4. Location and Weather</h3>
   <p>If you turn on "Show weather," the App obtains your device's current latitude and longitude and sends it to Open-Meteo to retrieve weather information.</p>
@@ -227,7 +212,7 @@ footer {
     <li>The date for which weather is requested</li>
   </ul>
   <p>Location data is not stored within the App as part of your records, such as journal entries.</p>
-  <p>To display place names, the App may use reverse geocoding provided by your device's OS (Apple or Google).</p>
+  <p>The App may use reverse-geocoding functionality provided by your device's operating system to display place names.</p>
   <p>You can turn off "Show weather" at any time.</p>
 
   <h3>5. Notifications</h3>
@@ -241,23 +226,18 @@ footer {
   <h3>7. In-App Purchases</h3>
   <p>The App offers in-app purchases for certain additional features.</p>
   <p>Purchases and payment processing are handled through the Apple App Store or Google Play.</p>
-  <p>The App also uses RevenueCat to manage purchase status and entitlements. Information necessary to provide this functionality — such as purchase status, product information, and technical information about your app and device — may be sent to RevenueCat.</p>
-  <p>Journal entries, notes, mood, physical condition, and other recorded content are never sent to RevenueCat.</p>
-  <p>We do not directly collect or store payment information such as credit card numbers.</p>
+  <p>The App also uses a third-party purchase management service to verify and manage purchase status and entitlements. Information necessary to provide this functionality, such as purchase status, product information, and certain technical information about the App or device, may be processed.</p>
+  <p>Journal entries, notes, mood, condition, and other personal records are not transmitted for payment processing or purchase management.</p>
+  <p>We do not directly obtain or store payment information such as credit card numbers.</p>
 
   <h3>8. Advertising</h3>
-  <p>The App does not use the content of your records for advertising delivery or ad-related profiling.</p>
-  <p>We also do not sell journal entries, notes, mood, physical condition, or other recorded content to third parties.</p>
+  <p>The App does not use the contents of your personal records for advertising or advertising profiling.</p>
+  <p>The App does not sell journal entries, notes, mood, condition, or other personal record contents to third parties.</p>
 
-  <h3>9. Third-Party Services</h3>
-  <p>To provide and improve the App, we use the following third-party services:</p>
-  <ul>
-    <li>PostHog: usage analytics</li>
-    <li>Open-Meteo: weather information</li>
-    <li>RevenueCat: in-app purchases and management of purchase status</li>
-    <li>Apple App Store / Google Play: app distribution and payment processing</li>
-  </ul>
-  <p>Information sent to each service is subject to that service's own privacy policy.</p>
+  <h3>9. Data Management and Deletion</h3>
+  <p>Journal entries, notes, mood, condition, and other personal records are generally managed locally on your device.</p>
+  <p>You can delete locally stored data using deletion features provided by the App or by removing the App from your device.</p>
+  <p>Usage analytics and purchase-related information transmitted to external services is handled in accordance with the applicable service's privacy policy and data-retention practices.</p>
 
   <h3>10. Children's Privacy</h3>
   <p>The App is not directed at children of any specific age group.</p>
